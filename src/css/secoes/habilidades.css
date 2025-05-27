@@ -1,9 +1,8 @@
 .habilidades .container-habilidades {    
     text-align: center;    
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    display: flex;
     justify-content: center;    
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
