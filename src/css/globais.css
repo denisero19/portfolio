@@ -9,8 +9,7 @@ html {
   }
   
   body {
-    background: url('../imagens/futuristic-3d-violet-background-picjumbo-com.jpeg') repeat center center fixed;
-    /* background-color: var(--cor-fundo-cinza-escuro); */
+    background: url('../imagens/pexels-sean-whang-25006-804269.jpg') repeat center center fixed;
     font-family: var(--fonte-primaria);
     font-size: var(--fonte-normal);
   }
