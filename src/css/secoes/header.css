@@ -3,23 +3,25 @@
 }
 
 .header .logo {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+    font-style: normal;
     font-family: var(--fonte-secundaria);
     font-size: var(--fonte-extra-grande);
-    color: var(--cor-branca);
-    border: 2px solid var(--cor-branca);
-    border-radius: 50%;
+    border-radius: 100%;
+    color: var(--cor-primaria);
+    border:15px outset var(--cor-primaria);
     width: 65px;
     height: 65px;
     line-height: 55px;
     text-align: center;
-    text-decoration: underline;
     transition: 0.2s;
 }
 
-.header a:hover .logo {
+/* .header a:hover .logo {
     color: var(--cor-primaria);
-    border: 2px solid var(--cor-primaria);
-}
+    border:10px outset var(--cor-primaria);
+} */
 
 .header nav ul {
     display: flex;
