@@ -9,7 +9,7 @@ html {
   }
   
   body {
-    background: url('../imagens/pexels-sean-whang-25006-804269.jpg') repeat center center fixed;
+    background: url('../imagens/gerais/pexels-sean-whang-25006-804269.jpg') repeat center center fixed;
     font-family: var(--fonte-primaria);
     font-size: var(--fonte-normal);
   }
