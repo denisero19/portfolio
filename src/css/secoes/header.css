@@ -3,23 +3,22 @@
     align-items: center;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    position: sticky;
     width: 100%;
     background-color: var(--cor-primaria);
     left: 0;
     top: 0;
+    z-index: 1000;
     height: 12vh;
 }
 
 .header .logo {
     font-family: "Bebas Neue", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-family: var(--fonte-secundaria);
+    font-style: oblique;
     font-size: var(--fonte-extra-grande);
     border-radius: 100%;
-    color: var(--cor-secundaria);
-    border:15px inset var(--cor-primaria);
+    color: var(--cor-fundo-escuro);
+    border:15px inset var(--cor-secundaria);
     width: 65px;
     height: 65px;
     line-height: 55px;
@@ -28,7 +27,7 @@
 }
 
 .header a:hover .logo {
-    color: var(--cor-fundo-escuro);
+    color: var(--cor-secundaria);
     border:10px outset var(--cor-secundaria);
 }
 

@@ -38,7 +38,7 @@ html {
     height: 40px;
     font-size: 1.8rem;
     text-align: center;
-    color: var(--cor-branca);
+    /* color: var(--cor-branca); */
     margin: 0 10px;
     border-radius: 50%;
     transition: all 0.3s ease;
@@ -55,7 +55,7 @@ html {
   .outer-shadow {
     box-shadow: 3px 3px #222327, -3px -3px 3px #454545;
   }
-  
+
   .inner-shadow {
     box-shadow: inset 3px 3px 3px #222327, inset -3px -3px 3px #454545;
   }
@@ -78,7 +78,7 @@ html {
   }
   
   .botao {
-    font-size: var(--fonte-grande);
+    font-size: var(--fonte-normal);
     padding: 10px 20px;
     border-radius: 20px;
     transition: all .3s ease;
@@ -89,3 +89,5 @@ html {
     background-color: var(--cor-secundaria);
     color: var(--cor-branca);
   }
+
+  
