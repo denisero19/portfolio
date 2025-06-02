@@ -3,7 +3,6 @@
 
 html {
     font-size: 62.5%;
-    color: var(--cor-branca);
     font-weight: 300;
     scroll-behavior: smooth;
   }
@@ -38,7 +37,6 @@ html {
     height: 40px;
     font-size: 1.8rem;
     text-align: center;
-    /* color: var(--cor-branca); */
     margin: 0 10px;
     border-radius: 50%;
     transition: all 0.3s ease;
@@ -78,7 +76,7 @@ html {
   }
   
   .botao {
-    font-size: var(--fonte-normal);
+    font-size: var(--fonte-grande);
     padding: 10px 20px;
     border-radius: 20px;
     transition: all .3s ease;
@@ -87,7 +85,17 @@ html {
   
   .botao:hover {
     background-color: var(--cor-secundaria);
-    color: var(--cor-branca);
   }
 
-  
+.link-github {
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+    font-size: var(--fonte-normal);
+    border-radius: 20px;
+    transition: all .3s ease;
+    
+}
+
+
+
